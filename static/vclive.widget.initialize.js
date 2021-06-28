@@ -1,6 +1,6 @@
 function loadJS() {
   const wrapper = document.createElement("div");
-  wrapper.setAttribute("id", "root");
+  wrapper.setAttribute("id", "livevc-container");
   document.body.appendChild(wrapper);
 
   const scripts = ["main"];
